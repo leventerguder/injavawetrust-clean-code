@@ -1,0 +1,5 @@
+
+
+#####  Meaningful Names ##### 
+
+Names are everywhere in software. We name our variables , arguments , classes , packages. 

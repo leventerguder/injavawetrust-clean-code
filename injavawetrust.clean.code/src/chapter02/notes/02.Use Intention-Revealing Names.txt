@@ -1,0 +1,16 @@
+
+
+##### Use Intention-Revealing Names #####
+
+Choosing good names takes time but saves more than it takes
+So take care with your names and change them when you find better ones. 
+Everyone who reads your code (including you) will be happier if you do.
+
+The name of a variable, function, or class, should answer all the big questions. 
+It should tell you why it exists, what it does, and how it is used.
+
+If a name requires a comment, then the name does not reveal its intent.
+ 
+Choosing names that reveal intent can make it much easier to understand and change code. 
+
+With these simple name changes, it’s not difficult to understand what’s going on. This is the power of choosing good names.

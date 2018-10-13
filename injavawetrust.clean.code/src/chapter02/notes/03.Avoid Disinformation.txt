@@ -1,0 +1,11 @@
+
+
+##### Avoid Disinformation #####
+
+Programmers must avoid leaving false clues that obscure the meaning of code. 
+We should avoid words whose entrenched meanings vary from our intended meaning
+
+Do not refer to a grouping of accounts as an accountList unless it’s actually a List
+So accountGroup or bunchOfAccounts or just plain accounts would be better.
+
+Spelling similar concepts similarly is information. Using inconsistent spellings is disinformation.
