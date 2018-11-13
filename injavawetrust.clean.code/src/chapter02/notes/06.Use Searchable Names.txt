@@ -1,0 +1,15 @@
+
+##### Use Searchable Names #####
+
+Single-letter names and numeric constants have a particular problem in that they are not
+easy to locate across a body of text.
+
+One might easily grep for MAX_CLASSES_PER_STUDENT, but the number 7 could be more
+troublesome.
+
+- single-letter names can ONLY be used as local variables inside short methods.
+
+The length of a name should correspond to the size of its scope.
+
+If a variable or constant might be seen or used in multiple places in a body of code,
+it is imperative to give it a search-friendly name
