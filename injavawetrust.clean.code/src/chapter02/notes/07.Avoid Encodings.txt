@@ -1,0 +1,34 @@
+
+##### Avoid Encodings #####
+
+Encoded names are seldom pronounceable and are easy to mis-type.
+
+## Hungarian Notation ##
+
+Fortran forced encodings by making the first letter a code for the type. 
+Early versions of BASIC allowed only a letter plus one digit. 
+Hungarian Notation (HN) took this to a whole new level.
+
+Java programmers don’t need type encoding. 
+Objects are strongly typed, and editing environments have advanced such that they detect a type error long before you can run a compile!
+So nowadays HN and other forms of type encoding are simply impediments.
+
+
+## Member Prefixes ##
+You also don’t need to prefix member variables with m_ anymore. 
+Your classes and func- tions should be small enough that you don’t need them. 
+And you should be using an editing environment that highlights or colorizes members to make them distinct.
+
+
+## Interfaces and Implementations ##
+
+These are sometimes a special case for encodings. 
+For example, say you are building an ABSTRACT FACTORY for the creation of shapes. 
+This factory will be an interface and will be implemented by a concrete class.
+ What should you name them? IShapeFactory and ShapeFactory? 
+ I prefer to leave interfaces unadorned. 
+ The preceding I, so common in today’s legacy wads, is a distraction at best and too much information at worst. 
+ I don’t want my users knowing that I’m handing them an interface. 
+ I just want them to know that it’s a ShapeFactory. 
+ So if I must encode either the interface or the implementation, I choose the implementation. 
+ Calling it ShapeFactoryImp, or even the hideous CShapeFactory, is preferable to encoding the interface.
