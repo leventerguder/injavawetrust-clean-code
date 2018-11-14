@@ -1,0 +1,9 @@
+
+##### Pick one Word per Concept #####
+
+Pick one word for one abstract concept and stick with it. For instance, it’s confusing to
+have fetch, retrieve, and get as equivalent methods of different classes. How do you
+remember which method name goes with which class? Sadly, you often have to remember
+which company, group, or individual wrote the library or class in order to remember which
+term was used. Otherwise, you spend an awful lot of time browsing through headers and
+previous code samples.

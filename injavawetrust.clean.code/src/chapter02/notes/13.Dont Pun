@@ -1,0 +1,15 @@
+
+##### Dont Pun #####
+
+Avoid using the same word for two purposes. 
+Using the same term for two different ideas is essentially a pun.
+
+If you follow the "one word per concept" rule, you could end up with many classes
+that have, for example, an add method. As long as the parameter lists and return values of
+the various add methods are semantically equivalent, all is well.
+
+
+Now let’s say we are writing a new class that has a method that puts its single parameter into a collection. 
+Should we call this method add? It might seem consistent because we have so many other add methods,
+but in this case, the semantics are different, so we should use a name like insert or append instead. 
+To call the new method add would be a pun.
