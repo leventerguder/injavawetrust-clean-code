@@ -1,0 +1,7 @@
+
+The first rule of functions is that they should be small. 
+The second rule of functions is that they should be smaller than that.
+
+
+- Functions should not be 100 lines long. 
+- Functions should hardly ever be 20 lines long.

@@ -1,0 +1,13 @@
+
+The following advice has appeared in one form or another for 30 years or more.
+
+
+FUNCTIONS SHOULD DO ONE THING. THEY SHOULD DO IT WELL. THEY SHOULD DO IT ONLY.
+
+
+The problem with this statement is that it is hard to know what “one thing” is.
+Does Listing 3-3 do one thing? It’s easy to make the case that it’s doing three things:
+
+1. Determining whether the page is a test page.
+2. If so, including setups and teardowns.
+3. Rendering the page in HTML.
